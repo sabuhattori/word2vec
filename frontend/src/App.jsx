@@ -14,6 +14,8 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [model, setModel] = useState('ja');
 
+  
+
   // 入力欄に演算子を追加
   const handleAddOperator = (op) => {
     let trimmed = expression.trim();
